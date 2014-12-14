@@ -1,0 +1,20 @@
+<paquet
+	prefix="zotspip4cnrs"
+	categorie="edition"
+	version="0.1.0"
+	etat="test"
+	compatibilite="[3.0.0;3.0.*]"
+	logo="prive/themes/spip/images/zotspip-48.png"
+	documentation=""
+>	
+
+	<nom>ZotSpip 4 CNRS</nom>
+
+	<auteur lien="http://contrib.spip.net/Joseph">Joseph Larmarange</auteur>
+
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GPL 3</licence>
+
+	<necessite nom="zotspip" compatibilite="[3.4.0;["/>
+	<utilise nom="bibliocheck" />
+	<utilise nom="aeres" />
+</paquet>
